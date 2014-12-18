@@ -1,0 +1,225 @@
+@font-face {
+    font-family: Adequate;
+    src: url(Adequate-ExtraLight.ttf);
+}
+
+html { 
+  background: url('images/background.jpg') no-repeat center fixed; 
+  background-size: cover;
+}
+
+section {
+	font-family: 'Roboto', sans-serif;
+	font-size: 20px;
+	font-weight: 400;
+}
+
+#sec_game {
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 50px;
+	width: 281px;
+	height: auto;
+	text-align: center;	
+	background-color: rgba(255, 255, 255, .3);
+}
+
+.label{
+	color: #AD0000;
+	font-size: 12px;
+	height: 28px;
+}
+
+#levelBtns {
+	text-align: justify;
+	height: 40px;
+}
+
+#lblLevel {
+	display: inline-block;
+	width: 179px;
+	vertical-align: top;
+	-webkit-user-select: none;
+}
+
+#level:active, #level:hover {
+	cursor: default;
+}
+
+input {
+	font-size: 18px;
+	font-family: Roboto; 
+	outline: none; 			/*removes browser's default highlighting*/
+	border-radius: 5px;
+	font-weight: 400;
+	border: 0px;
+}
+
+input[type="button"] {
+	background-color: #4A9EE5;
+	color: white;
+	cursor: pointer;
+	vertical-align: top;
+	-webkit-user-select: none;
+}
+
+input[type="text"] {
+	width: 165px;
+	margin-bottom: 8px;
+	font-size: 16px;
+	line-height: 26px;
+}
+
+
+.btnLevel, .btnStartStop, #quit {
+	padding: 7px 0 7px 0;	
+}
+
+.btnLevel, .btnStartStop {
+	width: 53px;
+}
+
+.btnStartStop {
+	margin-top: 5px;	
+}
+
+.btnScores, .new_game, #name_submit, input[type="text"], .new_game_2 {
+	padding: 7px;
+}
+
+.new_game, #name_submit {
+	width: 86px; 
+}
+
+#quit {
+	width: 44px;
+	background-color: gray;
+}
+
+.brace {
+	border-top: none;
+	border-left: 1px solid #AD0000;
+	border-right: 1px solid #AD0000;
+	border-bottom: 1px solid #AD0000;
+	margin-top: 10px;
+	height: 3px;
+}
+
+.optionsWrap {
+	padding: 35px 50px 35px 50px;
+	border: 1px solid white;
+	margin: 0px 0 15px 0;
+}
+
+#submit_name {
+margin: 0; 
+}
+
+
+#containerIndex {
+    text-align: justify;
+    height: 94px;
+}
+
+#containerScores{
+	height: 88px;
+	padding: 7px 0 7px 0;
+}
+
+.game_info_item {
+    text-align: center;
+    padding: 20px;
+ 	border: 1px solid white;
+ 	width: 91px;
+ 	vertical-align: top;
+    display: inline-block;
+ 	-webkit-user-select: none;
+}
+
+.stretch {
+    width: 100%;
+    
+    display: inline-block;
+    height: 1px;
+    font-size: 0;
+    line-height: 0;
+}
+
+.game_info_item:active, .game_info_item:hover {
+	cursor: default;
+} 
+ 
+.clear {
+    clear: both;
+}
+
+/* If 4x4 game selected - 4x47 width */ 
+#game_blocks_16 {
+	width: 188px;		
+	height: 188px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+/* If 5x5 game selected - 5x47 width */
+#game_blocks_25 {
+	width: 235px;
+	height: 235px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+/* If 6x6 game selected - 6x47 width */
+#game_blocks_36 {
+	width: 282px;
+	height: 282px;
+	margin: 0 auto;
+	margin-top: 15px;
+}
+
+.num_block, .gray_block {
+	width: 45px;
+	height: 45px;
+	display: inline-block;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 40px;
+	background-color: gray;
+	color: white;
+	margin: 1px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	-webkit-user-select: none;
+}
+
+.num_block:active, .num_block:hover, .gray_block:active, .gray_block:hover {
+	cursor: default;
+}
+
+.scoresTitle, .scoresDetail {
+	width: 85px;
+	height: 45px;
+	display: inline-block;
+	text-align:center;
+	vertical-align: middle;
+	line-height: 40px;
+	margin: 1px;
+	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	-webkit-user-select: none;
+}
+
+.scoresTitle {
+	font-weight: bold;
+}
+
+footer {
+	display: inline-block;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	right: 5px;
+	text-align: right;
+	padding: 5px;
+	font-size: 10px;
+}
